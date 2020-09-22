@@ -1,0 +1,458 @@
+body{
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+#hero{
+	background-image: url('../images/Portada.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-position:center center;
+	position:relative;
+	padding-top: 80px;
+	height:800px;
+	color: #ffffff;
+}
+
+#hero_1{
+	background-image: url('../images/Neblina_1.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-position:center center;
+	position:relative;
+	padding-top: 80px;
+	height:800px;
+	color: #ffffff;
+}
+
+#hero_2{
+	background-image: url('../images/LasCruces.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-position:center center;
+	position:relative;
+	padding-top: 80px;
+	height:800px;
+	color: #ffffff;
+}
+
+#caballo{
+	padding:0;
+	margin:0;
+}
+
+.elecciones{
+	width:80%;
+	margin: auto;
+}
+
+.descripcion{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.elecciones img{
+	height:300px;
+	object-fit:cover;
+}
+
+#galeria img{
+	width:100%;
+	height:350px;
+}
+
+#galeria .col-lg-4{
+	padding: 25px;
+	margin:0 !important;
+}
+
+@media (min-width: 576px) { 
+	.carousel-inner img{
+		height:100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.carousel-inner img{
+		height:800px;
+	}
+}
+/*
+#principal{
+	background-image: url('../images/Recomendacion.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
+#carouselExampleControls img{
+	height:900px;
+}
+
+#acerca{
+	background-image: url('../images/Granja.jpg');
+	background-size:cover;
+	background-attachment: fixed;
+	background-position:center center;
+}
+
+section{
+	padding:120px 0;
+}
+
+#comida,#postre,#sel_gorditas{
+	display:none;
+}
+
+/*#portfolio .btn{
+	margin-top:50px;
+}*/
+
+#formulario{
+	padding:20px;
+}
+
+#recomendaciones{
+	padding:20px;
+}
+
+#reglas{
+	/*background-image: url('../images/Huertos.jpg');*/
+}
+
+.lista{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:white;
+	margin-top:60px;
+	margin-bottom:60px;
+}
+
+.listado li{
+	margin-bottom:10px;
+}
+
+.form-group{
+	font-size:12px;
+}
+
+.eleccion{
+	background-color:white;
+	width:90%;
+	height:200px;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.eleccion img{
+	height:200px;
+	width:100%;
+}
+
+#texto{
+	margin-top:68px;
+	margin-left:35px;
+	text-align:left;
+}
+
+.texto{
+	margin-top:68px;
+	margin-left:35px;
+}
+
+.mt-sm{
+	margin-top:20px;
+}
+
+.mb-m{
+	margin-bottom:40px;
+}
+
+/*.separacion{
+	border-right:2px solid black;
+	height:100%;
+}*/
+
+#verificar{
+	margin-top:70px;
+	margin-left:40px;
+}
+
+/*.atole{
+	background-image:url('../images/AtoleArroz.jpg');
+}*/
+
+#mostrarTotal{
+	width:80px;
+	height:32px;
+	background-color:white;
+	text-align:center;
+}
+
+.cantidad{
+	margin-top:70px;
+	margin-left:50px;
+}
+
+.cantidad_multiple_1{
+	margin-top:60px;
+}
+
+.cantidad_multiple_2{
+	margin-top: 8x;
+}
+
+.btn-light{
+	background:#ffffff;
+	color: #1a1a1a;
+	margin-top: 20px;
+}
+
+.content-center{
+	max-width:800px;
+	margin:0 auto 20px auto;
+	text-align:center;
+	margin-top: 120px;
+}
+
+.content-center-p{
+	max-width:800px;
+	margin:0 auto 20px auto;
+	text-align:center;
+	margin-top: 220px;
+}
+
+#hero h1{
+	font-size:80px;
+	font-weight: 600;
+	line-height: 80px;
+}
+
+#hero p{
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 1.8;
+	margin-bottom:0;
+}
+
+#hero_1 h1{
+	font-size:80px;
+	font-weight: 600;
+	line-height: 80px;
+	margin-top:200px;
+}
+
+#hero_2 h1{
+	font-size:80px;
+	font-weight: 600;
+	line-height: 80px;
+	margin-top:200px;
+}
+
+
+.content-center-gen{
+	max-width:800px;
+	margin:0 auto 60px auto;
+	text-align:center;
+}
+
+h2{
+	font-size:48px;
+	margin-bottom:30px;
+}
+
+.portfolio-container{
+	position:relative;
+	overflow: hidden;
+	margin: 10px 15px;
+	border-radius:2px;
+}
+
+.portfolio-container img{
+	-moz-transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.portfolio-details{
+	position: absolute;
+	bottom: 25px;
+	left:25px;
+	z-index:0;
+}
+
+.portfolio-details h2{
+	font-size:32px;
+	color: #ffffff;
+}
+
+#galeria{
+	margin: 60px auto;
+}
+
+#portfolio img{
+	width:100%;
+}
+
+#galeria .col-lg-6{
+	padding: 25px;
+	margin:0 !important;
+}
+
+.top-margin-c{
+	margin-top:25px;
+}
+
+.bg-grey{
+	background-color: #f5f5f5;
+}
+
+#acerca p{
+		font-size:20px;
+	}
+
+.mt-6{
+	margin-top: 4rem;
+}
+
+.mt-2{
+	margin-top: 2rem;
+}
+
+.full-width{
+	width:100%;
+}
+
+.form-control{
+	font-size: 12px;
+	border: 1px solid #cacaca;
+	padding:15px;
+	border-radius:2px;
+	height: auto;
+}
+
+.form-control:focus{
+	border: 1px solid #1a1a1a;
+	outline: none;
+	box-shadow: none;
+}
+
+.divider{
+	border-bottom: 2px solid #f5f5f5;
+}
+
+#footer{
+	padding: 80px 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer a{
+	color: #ffffff;
+}
+
+#footer i{
+	padding:6px;
+}
+
+@media (max-width: 575.98px) { 
+	#hero,#hero_2,#hero_1{
+		height:400px;
+	}
+	.content-center{
+		width:100%;
+		margin:0 auto 0 auto;
+		margin-top: 0;
+	}
+	#hero h1{
+		font-size:32px;
+		line-height: 40px;
+	}
+	#hero_1 h1{
+		font-size:40px;
+		line-height: 40px;
+		margin-top:100px;
+	}
+	#hero_2 h1{
+		font-size:40px;
+		line-height: 40px;
+		margin-top:100px;
+	}
+	#hero p{
+		font-size: 16px;
+	}
+	.btn-light{
+		margin-top: 40px;
+	}
+	#acerca h2{
+		font-size:46px;
+	}
+	.content-center-p{
+		margin-top: 40px;
+	}
+	#carouselExampleControls img{
+		height:300px;
+	}
+	#formulario{
+		padding:2px;
+	}
+	.eleccion{
+		width:100%;
+		height:160px;
+		margin-bottom:20px;
+		margin-left:0;
+	}
+	.eleccion img{
+		height:160px;
+		width:100%;
+	}
+	/*#texto{
+		margin-top:42px;
+		margin-left:10px;
+		font-size:12px;
+	}*/
+	.texto{
+		margin-top:42px;
+		margin-left:0px;
+		font-size:12px;
+	}	
+	#verificar{
+		margin-top:70px;
+		margin-left:0px;
+	}
+	.cantidad{
+		margin-top:70px;
+		margin-left:6px;
+	}
+	.cantidad_multiple_2{
+		margin-top: 4x;
+		margin-left: 10px;
+	}
+	.elecciones{
+		width:90%;
+		margin: auto;
+	}
+	.elecciones img{
+		height:200px;
+		object-fit:cover;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
